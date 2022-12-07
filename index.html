@@ -49,67 +49,72 @@
 
   </header>
 
-  <section class="main">
-    <picture class="main-img">
-      <img src="assets/images/image-web-3-mobile.jpg" alt="">
-    </picture>
-    <h1 class="main_heading">The Bright Future of Web 3.0?</h1>
-    <p> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of
-      the people.
-      But is it really fulfilling its promise?</p>
-    <button>Read more</button>
-  </section>
-
-  <section class="new-posts">
-    <h1 class="new-posts_heading">New</h1>
-    <article class="new-post">
-      <h1>Hydrogen VS Electric Cars</h1>
-      <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-    </article>
-    <hr>
-    <article class="new-post">
-      <h1>The Downsides of AI Artistry</h1>
-      <p>What are the possible adverse effects of on-demand AI image generation?</p>
-    </article>
-    <hr>
-    <article class="new-post">
-      <h1>Is VC Funding Drying Up?</h1>
-      <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
-    </article>
-  </section>
-
-  <section class="old-posts">
-    <article class="old-post flex-group">
-      <picture>
-        <img src="assets/images/image-retro-pcs.jpg" alt="Retro PCs">
+  <div class="container">
+    <section class="main">
+      <picture class="main-img grid-span-col-2">
+        <source media = "(min-width: 700px)" srcset="assets/images/image-web-3-desktop.jpg">
+        <img src="assets/images/image-web-3-mobile.jpg" alt="">
       </picture>
-      <div>
-        <h1 class="old-post_number">01</h1>
-        <h2 class="old-post_header">Reviving Retro PCs</h2>
-        <p>What happens when old PCs are given modern upgrades?</p>
+      <div class="main_content">
+        <h1 class="main_heading">The Bright Future of Web 3.0?</h1>
+        <div>
+          <p> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of
+            the people.
+            But is it really fulfilling its promise?</p>
+          <button>Read more</button>
+        </div>
       </div>
-    </article>
-    <article class="old-post flex-group">
-      <picture>
-        <img src="assets/images/image-top-laptops.jpg" alt="Top 10 Laptops">
-      </picture>
-      <div>
-        <h1 class="old-post_number">02</h1>
-        <h2 class="old-post_header">Top 10 Laptops of 2022</h2>
-        <p>Our best picks for various needs and budgets.</p>
-      </div>
-    </article>
-    <article class="old-post flex-group">
-      <picture>
-        <img src="assets/images/image-gaming-growth.jpg" alt="Retro PCs">
-      </picture>
-      <div>
-        <h1 class="old-post_number">03</h1>
-        <h2 class="old-post_header">The Growth of Gaming</h2>
-        <p>How the pandemic has sparked fresh opportunities.</p>
-      </div>
-    </article>
-  </section>
+    </section>
+    <section class="new-posts">
+      <h1 class="new-posts_heading">New</h1>
+      <article class="new-post">
+        <a>Hydrogen VS Electric Cars</a>
+        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </article>
+      <hr>
+      <article class="new-post">
+        <a>The Downsides of AI Artistry</a>
+        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      </article>
+      <hr>
+      <article class="new-post">
+        <a>Is VC Funding Drying Up?</a>
+        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </article>
+    </section>
+    <section class="old-posts grid-span-col-2">
+      <article class="old-post flex-group">
+        <picture>
+          <img src="assets/images/image-retro-pcs.jpg" alt="Retro PCs">
+        </picture>
+        <div>
+          <h1 class="old-post_number">01</h1>
+          <a>Reviving Retro PCs</a>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </article>
+      <article class="old-post flex-group">
+        <picture>
+          <img src="assets/images/image-top-laptops.jpg" alt="Top 10 Laptops">
+        </picture>
+        <div>
+          <h1 class="old-post_number">02</h1>
+          <a>Top 10 Laptops of 2022</a>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </article>
+      <article class="old-post flex-group">
+        <picture>
+          <img src="assets/images/image-gaming-growth.jpg" alt="Retro PCs">
+        </picture>
+        <div>
+          <h1 class="old-post_number">03</h1>
+          <a>The Growth of Gaming</a>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </article>
+    </section>
+  </div>
 
   <footer>
 
